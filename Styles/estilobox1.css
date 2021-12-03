@@ -1,0 +1,56 @@
+#fundo {
+        background-image: url("../Images/bgfull.png");
+        background-repeat: no-repeat;
+        background-size: 100%; /*formatação de bg*/
+    }
+    .box1 {
+        border: 1px outset #65423a;
+        background-color: #bccde7;
+        margin: 50px 310px;
+        height: 513px;
+        width: 700px;
+
+    }
+    .box1-2 {
+        border: 1px solid #458f94;
+        background-color: #f6f0e9;
+        margin: 13px;
+        height: 460px;
+        width: 670px;
+        position: absolute;
+        top: 77px;
+        background-size: 100%;
+    }
+    .box1-janelas {
+        display: inline-block;
+        border: 1px solid #458f94;
+
+        height:25px;
+        width: 140px;
+        padding:3px;
+        position: relative;
+        left:13px;
+        top:12px;
+
+        font-family: 'VT323', monospace;
+        font-size:23px; /*formatação de elemento*/
+        line-height: 15px;
+        color: #458f94;
+    }
+    .box1-janelas:hover {
+        background-color: #d1dbe9;
+    }
+    .box1-x {
+        display: inline-block;
+        border: 1px solid #458f94;
+        background-image: url("../Images/icons/x.png");
+        background-repeat: no-repeat;
+        height:16px;
+        width: 16px;
+        position: relative;
+        left: 210px;
+        top:14px;
+    }
+    .box1-x:hover {
+        background-image: url("../Images/icons/xs.png");
+    }

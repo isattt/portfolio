@@ -1,0 +1,49 @@
+#fundo {
+        background-image: url("../Images/bgfull.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .box1 {
+        border: 1px outset #65423a;
+        background-color: #bccde7;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+
+        left: 0;
+        right: 0;
+        top: 30px;
+        height: 550px;
+        width: 900px;
+
+    }
+    .box1-2 {
+        border: 1px solid #458f94;
+        background-color: #f6f0e9;
+
+        height: 500px;
+        width: 870px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+
+        left: 0;
+        right: 0;
+        top: 35px;
+        background-size: 100%;
+        overflow: auto;
+
+    }
+    .box1-x {
+        display: inline-block;
+        border: 1px solid #458f94;
+        background-image: url("../Images/icons/x.png");
+        height: 16px;
+        width: 16px;
+        position: relative;
+        left: 868px;
+        top:12px;
+    }
+    .box1-x:hover {
+        background-image: url("../Images/icons/xs.png");
+    }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--menu de navegação-->
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/estilobox1.css"> <!--estilo externo-->
+    <title>Galeria</title>
+    <!--estilo interno-->
+    <style>
+       .vertical-menu a {
+            display: block;
+            padding: 12px;
+
+            background-color: #e4b878;
+            color: #65423a;
+
+            text-decoration: none;
+            font-family: 'VT323', monospace;
+            font-size:23px;
+            line-height: 15px;
+            text-align: center;
+
+            width: 250px;
+            margin:6px 0px;
+
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+
+            left: 0;
+            right: 0;
+            top:250px;
+            }
+        <!--pseudo classe-->
+       .vertical-menu a:hover {
+            background-color: #458f94;
+            color: #f6f0e9;
+            }
+
+       .linha{
+            background-color: #65423a;
+            width: 450px;
+            height: 2px;
+
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+
+            left: 0;
+            right: 0;
+            top:210px;
+            }
+
+       .logo{
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+
+            left: 0;
+            right: 0;
+            top: 30px;
+
+            width: 70%;
+            height: auto;
+            }
+    </style>
+</head>
+<!--id, classe-->
+<body id = fundo>
+
+<div class="box1" >
+    <a class="box1-janelas" style="background-color:#f6f0e8"> <!--estilo inline-->
+        <img src="Images/icons/s.png"> Galeria</a>
+    <a href="Page/sobre.html" style="text-decoration:none" class="box1-janelas"> <!--link pag 1-->
+        <img src="Images/icons/b.png"> Sobre</a>
+    <a href="Page/senha.html" style="text-decoration:none" class="box1-janelas"> <!--pag 2-->
+        <img src="Images/icons/l.png"> !?</a>
+    <a href="Page/coelho.html" class="box1-x"></a> <!--pag 3-->
+
+    <div class="box1-2">
+        <img class="logo" src="Images/logo.png">
+        <p class="linha"></p>
+        <div class="vertical-menu">
+            <a href="Page/ilustracao.html">Ilustração</a> <!--pag 4-->
+            <a href="Page/personagens.html">Design de Personagem</a> <!--pag 5-->
+            <a href="Page/rascunhos.html">Rascunho</a> <!--pag 6-->
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
